@@ -1,0 +1,15 @@
+* {
+    font-size: 6.25%;
+    padding: 0;
+    margin: 0;
+    box-sizing: "border-box";
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50rem;
+}
+
+h2{
+    font-size: 25rem;
+}
