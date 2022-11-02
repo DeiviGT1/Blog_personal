@@ -38,6 +38,8 @@ a{
 
 .general_container{
     height: 460rem;
+    position: relative;
+    top: 15rem;
 }
 
 .container{
@@ -49,7 +51,7 @@ a{
 
 }
 
-img{
+.foto_personal{
     /* position: relative; */
     left: 220rem;
     /* top: 50rem; */
@@ -66,9 +68,100 @@ img{
     text-align: justify;
 }
 
+.iconos{
+    height: 60rem;
+    top: 20rem;
+    position: relative;
+}
+
+.previous{
+    border: 0;
+    line-height: 2.5;
+    text-align: center;
+    background-color: rgba(200, 0, 0, 1);
+    border-radius: 10rem;
+    margin: 10rem;
+}
+
+.previous img{
+    height: 30rem;
+    width: 30rem;
+    background-color:rgba(200, 0, 0, 1) ;
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+    border-radius: 0rem;
+
+}
+
+.previous:hover {
+    background-color: rgba(255, 0, 0, 1);   
+}
+
+.previous:active {
+    background-color:  rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .6);
+}
+
+.play{
+    border: 0;
+    line-height: 2.5;
+    text-align: center;
+    background-color: rgba(200, 0, 0, 1);
+    border-radius: 10rem;
+    margin: 10rem;
+}
+
+.play img{
+    height: 30rem;
+    width: 30rem;
+    background-color:rgba(200, 0, 0, 1) ;
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+    border-radius: 0rem;
+}
+
+.play:hover {
+    background-color: rgba(255, 0, 0, 1);   
+}
+
+.play:active {
+    background-color:  rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .6);
+}
+
+.next{
+    border: 0;
+    line-height: 2.5;
+    text-align: center;
+    background-color: rgba(200, 0, 0, 1);
+    border-radius: 10rem;
+    margin: 10rem;
+}
+
+.next img{
+    height: 30rem;
+    width: 30rem;
+    background-color:rgba(200, 0, 0, 1) ;
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+    border-radius: 0rem;
+}
+
+.next:hover {
+    background-color: rgba(255, 0, 0, 1);   
+}
+
+.next:active {
+    background-color:  rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .6);
+}
+
 .music{
     display: flex;
-    align-items: center;
     position: relative;
+    left: 60rem;
 }
 
