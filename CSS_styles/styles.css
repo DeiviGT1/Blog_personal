@@ -36,3 +36,39 @@ a{
     border-radius: 4rem;
 }
 
+.general_container{
+    height: 460rem;
+}
+
+.container{
+    display: flex;   
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    top: 30rem;
+
+}
+
+img{
+    /* position: relative; */
+    left: 220rem;
+    /* top: 50rem; */
+    height: 400rem;
+    width: 250rem;
+}
+
+.texto_personal{
+    font-size: 30rem;
+    margin-left: 20rem;
+    left: 350rem;
+    max-width: 500rem;
+    padding: 20rem;
+    text-align: justify;
+}
+
+.music{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
