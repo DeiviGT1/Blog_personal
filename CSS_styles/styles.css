@@ -8,90 +8,83 @@
 }
 
 h1{
-    font-size:40rem;
-    margin: 8rem;
+    font-size: 60rem;
+    margin: 2rem;
     text-align: center;
-    margin-bottom: 12rem;
 }
 
 nav{
     text-align: center; 
     position: relative;
     background-color: aquamarine;
-    margin-left: 60rem;
-    margin-right: 60rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    height: 8rem;
     border-radius: 4rem;
 }
 
-a{
-    list-style-type: none;
-    font-size: 28rem;
+.a_nav{
+    font-size: 24rem;
     display: inline;
-    position: inherit;
-    margin: 15rem;
-    padding: 4rem;
+    position: relative;
+    top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
     background-color: #A8A887;
     border-radius: 4rem;
 }
 
 .general_container{
-    height: 460rem;
+    height: 62rem;
     position: relative;
-    top: 15rem;
 }
 
 .container{
     display: flex;   
     align-items: center;
     position: relative;
-    justify-content: center;
-    top: 30rem;
-
+    top: 4rem;
 }
 
 .foto_personal{
-    /* position: relative; */
-    left: 220rem;
-    /* top: 50rem; */
-    height: 400rem;
-    width: 250rem;
+    height: 54rem;
+    width: 33.75rem;
+    position: relative;
+    left: 30rem;
 }
 
 .texto_personal{
     font-size: 30rem;
-    margin-left: 20rem;
-    left: 350rem;
-    max-width: 500rem;
-    padding: 20rem;
+    position: relative;
+    left: 40rem;
+    max-width: 65rem;
+    justify-content: center;
     text-align: justify;
 }
 
 .iconos{
-    height: 60rem;
-    top: 20rem;
-    position: relative;
+    height: 5rem;
+
 }
 
 .previous{
+    position: relative;
+    left: 10rem;
     border: 0;
-    line-height: 2.5;
-    text-align: center;
+    line-height: 2.5rem;
     background-color: rgba(200, 0, 0, 1);
-    border-radius: 10rem;
-    margin: 10rem;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 5rem;
+    top: -1rem;
 }
 
-.previous img{
-    height: 30rem;
-    width: 30rem;
+
+.previous_img{
+    height: 4rem;
+    width: 4rem;
     background-color:rgba(200, 0, 0, 1) ;
     position: relative;
-    top: 3rem;
-    left: 1rem;
-    border-radius: 0rem;
-
+    top: 0.5rem;
 }
 
 .previous:hover {
@@ -99,27 +92,28 @@ a{
 }
 
 .previous:active {
-    background-color:  rgba(255, 255, 255, .6);
-    color: rgba(255, 255, 255, .6);
+    visibility: hidden;;
 }
 
 .play{
     border: 0;
-    line-height: 2.5;
-    text-align: center;
+    line-height: 2.5rem;
     background-color: rgba(200, 0, 0, 1);
-    border-radius: 10rem;
-    margin: 10rem;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    left: 11rem;
+    top: -1rem;
 }
 
-.play img{
-    height: 30rem;
-    width: 30rem;
+.play_img{
+    height: 4rem;
+    width: 4rem;
     background-color:rgba(200, 0, 0, 1) ;
     position: relative;
-    top: 3rem;
-    left: 1rem;
-    border-radius: 0rem;
+    top: 0.5rem;
+    left: 0.2rem;
 }
 
 .play:hover {
@@ -127,27 +121,28 @@ a{
 }
 
 .play:active {
-    background-color:  rgba(255, 255, 255, .6);
-    color: rgba(255, 255, 255, .6);
+    visibility: hidden;
 }
 
 .next{
     border: 0;
-    line-height: 2.5;
-    text-align: center;
+    line-height: 2.5rem;
     background-color: rgba(200, 0, 0, 1);
-    border-radius: 10rem;
-    margin: 10rem;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    left: 12rem;
+    top: -1rem;
 }
 
-.next img{
-    height: 30rem;
-    width: 30rem;
+.next_img{
+    height: 4rem;
+    width: 4rem;
     background-color:rgba(200, 0, 0, 1) ;
     position: relative;
-    top: 3rem;
-    left: 1rem;
-    border-radius: 0rem;
+    top: 0.5rem;
+    left: 0.2rem;
 }
 
 .next:hover {
@@ -155,13 +150,43 @@ a{
 }
 
 .next:active {
-    background-color:  rgba(255, 255, 255, .6);
-    color: rgba(255, 255, 255, .6);
+    visibility: hidden;
 }
 
-.music{
-    display: flex;
+.github{
     position: relative;
-    left: 60rem;
+    left: 111rem;
+    border: 0;
+    line-height: 2.5rem;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 5rem;
 }
 
+.github_img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.github_img:active {
+    visibility: hidden;
+}
+
+.linkedln{
+    position: relative;
+    left: 113rem;
+    border: 0;
+    line-height: 2.5rem;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.linkedln_img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.linkedln_img:active {
+    visibility: hidden;
+}
