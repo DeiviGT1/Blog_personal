@@ -113,8 +113,6 @@ nav{
     left: 1px;
 }
 
-
-
 .play:active {
     visibility: hidden;
 }
@@ -145,13 +143,15 @@ nav{
 }
 
 .github{
-    position: relative;
-    left: 111rem;
+    left: 970px;
     border: 0;
     line-height: 2.5rem;
-    border-radius: 1rem;
+    background-color: rgba(200, 0, 0, 1);
+    border-radius: 9px;
     height: 45px;
     width: 45px;
+    position: relative;
+    top: -5.5px;
 }
 
 .github_img{
@@ -164,13 +164,15 @@ nav{
 }
 
 .linkedln{
-    position: relative;
-    left: 113rem;
+    left: 990px;
     border: 0;
     line-height: 2.5rem;
-    border-radius: 1rem;
-    height: 10px;
-    width: 10px;
+    background-color: rgba(200, 0, 0, 1);
+    border-radius: 9px;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: -5.5px;
 }
 
 .linkedln_img{
