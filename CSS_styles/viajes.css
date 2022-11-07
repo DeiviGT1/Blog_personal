@@ -54,7 +54,8 @@ header{
     width: 40px;
     font-size: 32px;  
     display: flex;
-    margin-left: 70%;
+    position: relative;
+    left: 70%;
 }
 
 .parrafo_social{
@@ -66,8 +67,8 @@ header{
     height: 40px;
     width: 40px;
     font-size: 32px;
-    margin-left: 18%;
-    margin-right: 80px;
+    position: relative;
+    left: 85%;
 }
 
 main{

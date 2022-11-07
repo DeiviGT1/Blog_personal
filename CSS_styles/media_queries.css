@@ -1,4 +1,12 @@
 @media (max-width: 900px){
+    .busqueda{
+        left: 75%;
+    }
+
+    .social{
+        left: 60%;
+    }
+
     .content{
         display:inline-block;
         overflow: scroll;
