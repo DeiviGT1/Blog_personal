@@ -1,0 +1,14 @@
+@media (max-width: 900px){
+    .content{
+        display:inline-block;
+        overflow: scroll;
+    }
+
+    .recuadro_gris{
+        width: 100%;
+    }
+    
+    .recuadro_blanco{
+        width: 100%;
+    }
+}

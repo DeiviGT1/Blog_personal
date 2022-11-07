@@ -71,9 +71,15 @@ header{
 }
 
 main{
-    height: 100%;
+    height: 86%;
     width: 100%;
     display: flex;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display:flex;
 }
 
 .recuadro_gris{
@@ -88,8 +94,8 @@ main{
 }
 
 .div_circulo{
-    height: 65%;
-    width: 65%;
+    height: 74.5%;
+    width: 56%;
     background-color: #fb7373;
     border-radius: 100%;
     position: relative;
@@ -100,10 +106,21 @@ main{
 .fotos{
     margin: 0;
     padding: 0;
-    height: 50%;
+    height: 60%;
     width: 66%;
     position: relative;
     top: 16.5%;
     left: 16.5%;
     background-color: #FBA673;
+}
+
+
+
+
+
+footer {
+    height: 3%;
+    width: 100%;
+    background-color: #fb7373;
+    border-bottom: #757575 1000px solid;
 }

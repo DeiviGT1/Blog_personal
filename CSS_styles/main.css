@@ -71,9 +71,15 @@ header{
 }
 
 main{
-    height: 100%;
+    height: 86%;
     width: 100%;
     display: flex;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display:flex;
 }
 
 .recuadro_gris{
@@ -88,8 +94,8 @@ main{
 }
 
 .div_circulo{
-    height: 65%;
-    width: 65%;
+    height: 74.5%;
+    width: 56%;
     background-color: #fb7373;
     border-radius: 100%;
     position: relative;
@@ -106,21 +112,33 @@ main{
     top: 30%;
 }
 
-.texto_izquierda{
+/* .texto_izquierda{
     margin-top: 45%;
-}
+} */
 
 .texto{
     position: relative;
     width: 60%;
     left: 100px;
+    top: 25%;
 }
 
 .line{
-width: 327px;
+width: 50%;
 height: 0px;
 position: relative;
-top: 20px;
-left: 110px;
-border: solid 2px #d50000;
+top: 30%;
+left: 25%;
+border: solid 2px #fb7373;
+}
+
+
+
+
+
+footer {
+    height: 3%;
+    width: 100%;
+    background-color: #fb7373;
+    border-bottom: #757575 1000px solid;
 }
