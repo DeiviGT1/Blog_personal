@@ -141,7 +141,7 @@ main{
 .div_circulo{
     height: 74.5%;
     width: 56%;
-    background-color: #fb7373;
+    background-color: #FBA673;
     border-radius: 100%;
     position: relative;
     top: 12%;
@@ -164,20 +164,10 @@ main{
     top: 25%;
 }
 
-.line{
-width: 50%;
-height: 0px;
-position: relative;
-top: 30%;
-left: 20%;
-border: solid 2px #fb7373;
-}
-
-
 
 footer {
     height: 3%;
     width: 100%;
-    background-color: #fb7373;
+    background-color:#FBA673;
     border-bottom: #757575 1000px solid;
 }
