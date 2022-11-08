@@ -24,7 +24,7 @@ a{
 
 header{
     width: 100%;
-    height: 84px;
+    height: 80px;
     display: grid;
 }
 
@@ -33,7 +33,7 @@ header{
     height: 40px;
     padding: 20px 24px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
-    background-color: #e0e0e0;
+    background-color: #757575;
     display: flex;
 }
 
@@ -107,7 +107,40 @@ main{
 .recuadro_gris{
     height: 100%;
     width: 40%;
-    background-color: #d8d8d8;
+    background-color: #757575;
+}
+
+.grid_menu{
+    display: grid;
+    grid-row-start: 0;
+    grid-row-end: 5;
+    position: relative;
+    top: 13%;
+    height: 70%;
+    grid-gap: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.opciones a{
+    display: flex;
+    height: 100%;
+}
+
+.opciones img{
+    position: relative;
+    top: 20%;
+    height: 30px;
+    width: 30px;
+}
+
+.opciones p{
+    align-self: center;
+    position: relative;
+    left:10%;
+    /* top: 35%; */
+    color: #ffffff;
 }
 
 .recuadro_blanco{
