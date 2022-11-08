@@ -45,23 +45,13 @@ header{
     /* margin-top: 5px; */
 }
 
-.menu a{
-    height: 36px;
-    width: 36px;
-    font-size: 32px;
-}
-
-.menu:hover{
-    background-color: aqua;
-}
-
 .social{
     height: 36px;
     width: 96px;
     font-size: 32px;  
     display: flex;
     position: relative;
-    left: 70%;
+    left: 72.5%;
 }
 
 .social a{
@@ -85,7 +75,7 @@ header{
     width: 40px;
     font-size: 32px;
     position: relative;
-    left: 81.5%;
+    left: 84%;
 }
 
 .busqueda:hover{
