@@ -88,16 +88,9 @@ header{
     left: 81.5%;
 }
 
-.busqueda a{
-    height: 40px;
-    position:relative;
-    top: 0;
-}
-
 .busqueda:hover{
     background-color: aqua;
 }
-
 
 main{
     height: 86%;
@@ -132,18 +125,30 @@ main{
     left: 20%;
 }
 
-.fotos{
-    margin: 0;
-    padding: 0;
-    height: 60%;
-    width: 66%;
+.introduccion{
+    font-size: 20px;
+    text-align: justify;
+    width: 70%;
+    padding-left: 15%;
     position: relative;
-    top: 16.5%;
-    left: 16.5%;
-    background-color: #FBA673;
+    top: 20%;
 }
 
+.texto{
+    position: relative;
+    width: 60%;
+    left: 17%;
+    top: 25%;
+}
 
+.line{
+width: 50%;
+height: 0px;
+position: relative;
+top: 30%;
+left: 20%;
+border: solid 2px #fb7373;
+}
 
 
 

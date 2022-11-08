@@ -49,6 +49,10 @@ header{
     font-size: 32px;
 }
 
+.menu:hover{
+    transform: rotate(90deg);
+}
+
 .social{
     height: 40px;
     width: 40px;
