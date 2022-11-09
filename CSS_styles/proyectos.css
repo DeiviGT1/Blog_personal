@@ -124,6 +124,16 @@ main{
     width: 60%;
 }
 
+.texto_izquierda{
+    height: 80%;
+    width: 80%;
+    background-color: indianred;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    overflow: scroll;
+}
+
 .div_circulo{
     height: 74.5%;
     width: 56%;
