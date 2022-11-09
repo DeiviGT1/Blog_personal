@@ -134,6 +134,11 @@ main{
     overflow: scroll;
 }
 
+.texto_izquierda p{
+    font-family: 'Inconsolata', monospace;
+    padding: 10%;
+}
+
 .div_circulo{
     height: 74.5%;
     width: 56%;
@@ -142,6 +147,23 @@ main{
     position: relative;
     top: 12%;
     left: 20%;
+}
+
+.grid_proyectos{
+    display: grid;
+    grid-row-start: 0;
+    grid-row-end: 4;
+    position: relative;
+    top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 75%;
+}
+
+.grid_proyectos p{
+    text-align: center;
+    position: relative;
+    padding: 5%;
 }
 
 footer {
