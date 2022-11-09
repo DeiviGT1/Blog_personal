@@ -137,8 +137,8 @@ main{
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0px;
-    /* display: none; */
+    top: 0px;   
+    display: none;
 }
 
 .div_circulo{
@@ -166,6 +166,10 @@ main{
     text-align: center;
     position: relative;
     padding: 5%;
+}
+
+.grid_proyectos p:active{
+    background-color: aquamarine;
 }
 
 footer {
