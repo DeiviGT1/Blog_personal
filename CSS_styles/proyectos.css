@@ -131,12 +131,14 @@ main{
     position: relative;
     top: 10%;
     left: 10%;
-    overflow: scroll;
 }
 
-.texto_izquierda p{
-    font-family: 'Inconsolata', monospace;
-    padding: 10%;
+.texto_izquierda img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    /* display: none; */
 }
 
 .div_circulo{
