@@ -132,6 +132,11 @@ main{
     position: relative;
     top: 12%;
     left: 20%;
+    overflow: scroll;
+}
+
+.div_circulo p {
+    margin: 18%;
 }
 
 footer {

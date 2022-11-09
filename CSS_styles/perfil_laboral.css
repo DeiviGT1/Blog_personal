@@ -135,6 +135,10 @@ main{
     overflow: scroll;
 }
 
+.div_circulo p {
+    margin: 18%;
+}
+
 footer {
     height: 3%;
     width: 100%;
