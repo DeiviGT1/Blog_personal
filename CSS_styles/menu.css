@@ -18,7 +18,7 @@ p {
 
 a{
     display: inline;
-    color: #757575;
+    color: #ffffff;
 
 }
 
@@ -40,33 +40,98 @@ header{
 .cuadro_apps{
     display: flex;
     width: 97%;
-    /* position: relative;
-    top: 5px; */
-    /* margin-top: 5px; */
 }
 
 .social{
     height: 36px;
     width: 96px;
-    font-size: 32px;  
+    font-size: 16px;  
     display: flex;
     position: relative;
     left: 72.5%;
+    top: 10%;
 }
 
-.social a{
-    position: relative;
-    top: 10%;
+.social img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 4px;
+    left: 1.72px;
+}
+
+.social div img{
+    height: 30px;
+    width: 46px;
+    position: absolute;
+    top: 4px;
+    left: 1.72px;
 }
 
 .social p{
     margin: 5px;
     font-size: 16px;
     position: relative;
-    top: 10%;
+    top: 4px;
+    left: 60px;
 }
 
+.grid_social{
+    display: grid;
+    height: 80%;
+    width: 100%;
+    position: relative;
+    top: 20%;
+}
 
+.grid_social a{
+    display: flex;
+}
+
+.desplegable{
+    display: none;
+    align-items: center;
+    position: relative;
+    top: 25%;
+}
+
+.social:hover{
+    background-color: #757575;
+    height: 1000%;
+    width: 21%;
+    z-index: 10;
+}
+
+.social:hover .desplegable{
+    display: block;
+    position: relative;
+    top: 25%;
+}
+
+.social:hover .grid_social p{
+    position: relative;
+    left: 30px;
+    top: 30%;
+    height: 10% ;
+}
+
+.social:active{
+    background-color: #757575;
+    height: 1000%;
+    width: 21%;
+    z-index: 10;
+}
+
+.social:active .desplegable{
+    display: block;
+    position: relative;
+    top: 25%;
+}
+
+.social:active .grid_social p{
+    position: relative;
+    left: 30px;
+}
 
 .busqueda{
     height: 40px;
@@ -74,10 +139,7 @@ header{
     font-size: 32px;
     position: relative;
     left: 84%;
-}
-
-.busqueda:hover{
-    background-color: aqua;
+    top: 10%;
 }
 
 .busqueda:hover{
@@ -133,7 +195,6 @@ main{
     align-self: center;
     position: relative;
     left:10%;
-    /* top: 35%; */
     color: #ffffff;
 }
 
