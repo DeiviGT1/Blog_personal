@@ -140,12 +140,30 @@ header{
     position: relative;
     left: 84%;
     top: 10%;
+    display: flex;
+}
+
+.search_bar{
+    display: none;
+}
+
+.busqueda:hover .search_bar{
+    width: 65%;
+    padding: 10000%;
+    line-height: 30px;
+    display: block;
+    position: relative;
+    top: 20%;
+    left: 5%;
 }
 
 .busqueda:hover{
-    background-color: aqua;
+    background-color: #e0e0e0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.24), 2px 2px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
     transform:translate(-100px);
-    width: 240px;
+    width: 17%;
+    padding: 0.155%;
 }
 
 main{
