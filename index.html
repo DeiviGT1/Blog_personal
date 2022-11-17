@@ -1,80 +1,286 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="./CSS_styles/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./CSS_styles/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-
     <header class="navbar-dark bg-dark navbar-expand-lg ps-4">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand mr-auto" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-md-2 mr-0">
-                <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Perfil academico</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Perfil laboral</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Viajes</a>
-                </li>
-            </ul>
-            <form class="d-flex ms-auto p-2 pe-5 bd-highlight my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 offset-1 my-sm-0" type="submit">Search</button>
-            </form>
-            <ul class="navbar-nav mr-md-2 mr-0">
-                <li class="nav-item pe-4 mr-auto">
-                    <a class="nav-link" href="#">
-                        <img src="./assets/icons/search.png" alt="busqueda" style="background-color: aliceblue ;">
-                    </a>
-                </li>
-            </ul>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand mr-auto" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-md-2 mr-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perfil academico</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perfil laboral</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Viajes</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto p-2 pe-5 bd-highlight my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success my-2 offset-1 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+          <ul class="navbar-nav mr-md-2 mr-0">
+            <li class="nav-item pe-4 mr-auto">
+              <a class="nav-link" href="#">
+                <img
+                  src="./assets/icons/search.png"
+                  alt="busqueda"
+                  style="background-color: aliceblue"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <div class="bg-image">
-        <main>
-            <div class="bg-image mt-0" 
-                style="background-image: url(./assets/light_background.jpg);
-                height: 400vh;
-                width: 100%;">
+      <main>
+        <!-- Fondo -->
+        <div
+          class="bg-image mt-0"
+          style="
+            background-image: url(./assets/dark_background.jpg);
+            height: 400vh;
+            width: 100%;
+          "
+        >
+          <!-- Introducción -->
+          <div class="container-fluid bg-info">
+            <h1 class="text-center p-4">Introducción</h1>
+          </div>
 
-                <div class="container-fluid bg-info">
-                    <h1 class="text-center p-4">Introducción</h1>
+          <div class="container p-5 mt-5 mb-5" style="background-color: black">
+            <div class="row">
+              <div class="col-5">
+                <img
+                  src="./assets/Foto_personal.jpg"
+                  alt=""
+                  style="
+                    width: 80%;
+                    border-radius: 5%;
+                    object-fit: cover;
+                    height: 450px;
+                    object-position: 100% 10%;
+                  "
+                />
+              </div>
+              <div
+                class="col-7 align-self-center py-3"
+                style="background-color: white; border-radius: 5%"
+              >
+                <p>
+                  La idea principal del blog es demostrar habilidades de
+                  desarrollo web, tamnto en la parte de Frontend como Backend
+                  para posibles cargos de Fullstack dada la necesidad del mismo.
+                  De igual forma en el blog presento diversos proyectos de Data
+                  Science que he realizado tanto en el ambito laboral como
+                  academico, estos codigos pueden ser revisados en el Github
+                  personal. <br />
+                  <br />
+                  Adicionalmente, se demuestran grupos academicos a los que he
+                  pertenecido con desarrollos realizados para el fortalecimiento
+                  de habilidades blandas y actividades extracurriculares en el
+                  desarrollo de las mismas.<br />
+                  <br />
+                  Por último, el blog contiene experiencias propias en una de
+                  mis actividades favoritas, viajar, cuenta con anecdotas y
+                  fotografias a modo de recuerdo personal que quiero dejar
+                  plasmado en el proyecto y asi poder tenerlo presente en un
+                  futuro.<br />
+                  <br />
+                  Las redes sociales se encuentran al final de la pagina
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid bg-info mt-5">
+            <h1 class="text-center p-4 mt-5">Perfil academico</h1>
+          </div>
+          <div class="container" style="color: white; text-align: center">
+            <div class="col-4" style="width: 33%;">
+                <div class="row">
+                    <h2>Universidad nacional de Colombia</h2>
                 </div>
-                <div class="container">
-                    <p></p>
+                <div class="row p-0 m-0">
+                    <h3 style="font-size: 120%">
+                        Ingenieria administrativa | Enero 2018 - Octubre 2023
+                     </h3>
+                </div>
+
+                <div class="row">
+                    <p>
+                        Estudiante de ingeniería administrativa con cursos aprobados
+                        en materias financieras y de desarrollo matemático cognitivo
+                        con enfoque en el desarrollo de proyectos, análisis de datos y
+                        negocios internacionales
+                    </p>
                 </div>
             </div>
+            <div class="col-4">
+                <div class="row">
+                    <h2>Universidad nacional de Colombia</h2>
+                </div>
+                <div class="row">
+                    <h3 style="font-size: 120%">
+                        Ingenieria administrativa | Enero 2018 - Octubre 2023
+                     </h3>
+                </div>
 
-            
-        </main>
+                <div class="row">
+                    <p>
+                        Estudiante de ingeniería administrativa con cursos aprobados
+                        en materias financieras y de desarrollo matemático cognitivo
+                        con enfoque en el desarrollo de proyectos, análisis de datos y
+                        negocios internacionales
+                    </p>
+                </div>
+            </div>
+              <!-- </div>
+              <div class="col-lg-4 col-12">
+                <h2>Colegio panamericano colombo sueco</h2>
+                <h3 style="font-size: 120%">
+                  Bachiller | Noviembre 2017
+                </h3>
+                    Enfocado en valores morales y éticos muy importantes para el
+                    desarrollo como persona integral a la hora de desarrollar
+                    diversas actividades
+              </div>
+              <div class="col-lg-4 col-12">
+                <h2>Coursera</h2>
+                <h3 style="font-size: 120%">
+                    Junio 2020 - Marzo 2022
+                </h3>
+                    5 cursos especializados con énfasis en Excel avanzado, Power BI,
+                    Python y el análisis de datos certificados por la universidad de
+                    Michigan, la universidad de Macquiarie y Google
+              </div> -->
+            </div>
+          </div>
+
+          <div class="container-fluid bg-info mt-5">
+            <h1 class="text-center p-4 mt-5">Perfil laboral</h1>
+          </div>
+          <div
+            class="container p-5 mt-4"
+            style="background-color: black; color: azure"
+          >
+            <div class="row m-5">
+              <div class="col-12 col-lg-6">
+                <h2>S.O.S. Llaves y claves</h2>
+                <h3 style="font-size: 120%">
+                  Asistente administrativo | Enero 2019 - Octubre 2020
+                </h3>
+                <ul>
+                  <li>
+                    Manejo de inventarios, tanto registro de entrada como de
+                    salida
+                  </li>
+                  <li>Atención al cliente</li>
+                  <li>Desarrollo y ejecución de estrategias de mercadeo</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-6 pt-lg-0 pt-5">
+                <h2>Mattelsa S.A.S.</h2>
+                <h3 style="font-size: 120%">
+                  S.A. Ecommerce | Noviembre 2020 - Agosto 2021
+                </h3>
+                <ul>
+                  <li>Negociación con transportadoras</li>
+                  <li>
+                    Entrega de informes y análisis del servicio de Ecommerce
+                  </li>
+                  <li>Reporte de pagos realizados por las transportadoras</li>
+                </ul>
+              </div>
+              <div class="col-12 pt-5">
+                <h2>Mattelsa S.A.S.</h2>
+                <h3 style="font-size: 120%">
+                  Analista de planeacion comercial | Septiembre 2021 -
+                  Actualidad
+                </h3>
+                <ul>
+                  <li>Distribución de unidades a cada una de las bodegas</li>
+                  <li>
+                    Migración de datos del sistema a la bodega de datos en SQL
+                    Automatización de procesos para su veloz desarrollo con el
+                    uso de VBA y Python
+                  </li>
+                  <li>Desarrollo de reportes dinámicos en Power BI</li>
+                  <li>
+                    Desarrollo de modelos de Machine Learning por medio de
+                    Python para el analisis de datos y la toma de desiciones
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </main>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-
-   
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
