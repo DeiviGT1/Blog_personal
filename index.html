@@ -19,9 +19,9 @@
     />
 
   </head>
-  <body data-spy="scroll" data-target="collapse navbar-collapse">
+  <body data-spy="scroll" data-target="#navbar" data-offset="70">
     
-    <header class="navbar-dark bg-dark navbar-expand-lg ps-4">
+    <header class="navbar-dark bg-dark navbar-expand-lg ps-4 fixed-top">
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand mr-auto" href="#">Navbar</a>
         <button
@@ -36,22 +36,23 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mr-md-2 mr-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#principal">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Perfil academico</a>
+              <a class="nav-link" href="#introduccion">Introducción</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Perfil laboral</a>
+              <a class="nav-link" href="#perfil_academico">Perfil academico</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#perfil_laboral">Perfil laboral</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#">Viajes</a>
+              <a class="nav-link" href="#viajes">Viajes</a>
             </li>
           </ul>
           <form class="d-flex ms-auto p-2 pe-5 bd-highlight my-2 my-lg-0">
@@ -100,14 +101,13 @@
         </div>
           <div
           class="bg-image mt-0"
-          
           id=""
-        >
+          style="top: 70px; position:relative">
         
           <!-- Para quien es esto? -->
           
 
-          <div class="container-fluid p-0 m-0" >
+          <div class="container-fluid p-0 m-0" id="principal">
             <div class="row-12">
               <div class="col-12 p-0">
                 <div class="container-fluid bg-info p-0">
@@ -149,7 +149,7 @@
         
           <!-- Introducción -->
       
-          <div class="container-fluid p-0 m-0">
+          <div class="container-fluid p-0 m-0" id="introduccion">
             <div class="row-12">
               <div class="col-12 p-0">
              
@@ -208,7 +208,7 @@
 
           <!-- Perfil academico -->
 
-          <div class="container-fluid p-0 m-0">
+          <div class="container-fluid p-0 m-0" id="perfil_academico">
             <div class="row-12">
               <div class="col-12 p-0">
 
@@ -272,7 +272,7 @@
 
           <!-- perfil laboral -->
 
-          <div class="container-fluid p-0 m-0">
+          <div class="container-fluid p-0 m-0" id="perfil_laboral">
             <div class="row-12">
               <div class="col-12 p-0">
                 <div class="container-fluid bg-info mt-5 p-0">
@@ -338,7 +338,7 @@
 
           <!-- Viajes -->
 
-          <div class="container-fluid p-0 m-0 mb-4">
+          <div class="container-fluid p-0 m-0 mb-4" id="viajes">
             <div class="row-12">
               <div class="col-12 p-0">
 
