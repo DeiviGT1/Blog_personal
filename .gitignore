@@ -1,3 +1,4 @@
 export_pdf
 archivos_adobe_xd
 *.DS_store
+.vscode
