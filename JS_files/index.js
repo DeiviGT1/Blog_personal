@@ -1,3 +1,6 @@
+
+// Funcion para trasladar en el eje Y
+
 var imagen = document.getElementById('imagen');
 
     (function(){
@@ -19,3 +22,5 @@ var imagen = document.getElementById('imagen');
 window.addEventListener("optimizedScroll", function(){
     imagen.style.transform = "translateY(-" + window.pageYOffset + "px)";
 })
+
+// Funcion para color fondo entero
