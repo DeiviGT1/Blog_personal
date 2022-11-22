@@ -24,25 +24,35 @@ window.addEventListener("optimizedScroll", function () {
   imagen.style.transform = "translateY(-" + window.pageYOffset + "px)";
 });
 
-// Funcion para color fondo entero
+function getPosition(string, subString, index) {
+  return string.split(subString, index).join(subString).length;
+}
+
+
+// Funcion para cambiar una imagen
 
 function modo() {
   var modo_actual = document.getElementById("modo_actual_pagina");
   if (modo_actual.src.substr(modo_actual.src.length - 8) == "luna.png") {
-    
-    var nueva_pagina = document
-      .getElementById("modo_actual_pagina")
-      .src.substr(
-        -document.getElementById("modo_actual_pagina").src.length,
-        document.getElementById("modo_actual_pagina").src.length - 8
-      ) + "sol.png";
+    var nueva_pagina =
+      window.location.href.substr(
+        0,
+        getPosition(window.location.href, "/", 3)
+      ) + "/assets/icons/sol.png";
   } else {
-    var nueva_pagina = document
-      .getElementById("modo_actual_pagina")
-      .src.substr(
-        -document.getElementById("modo_actual_pagina").src.length,
-        document.getElementById("modo_actual_pagina").src.length - 8
-      ) + "luna.png";
+    var nueva_pagina =
+      window.location.href.substr(
+        0,
+        getPosition(window.location.href, "/", 3)
+      ) + "/assets/icons/luna.png";
   }
-  return nueva_pagina;
+  
+  document.getElementById("modo_actual_pagina").src = nueva_pagina;
 }
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
