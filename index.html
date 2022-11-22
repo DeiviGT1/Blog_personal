@@ -17,23 +17,13 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-
   </head>
-  <body data-spy="scroll" data-target="#navbar">
-    
+  <body data-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <header class="navbar-dark bg-dark navbar-expand-lg ps-4 fixed-top">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg" id="navbar-scrollspy">
         <a class="navbar-brand mr-auto" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbar">
@@ -50,7 +40,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#perfil_laboral">Perfil laboral</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="#viajes">Viajes</a>
             </li>
@@ -86,8 +75,8 @@
       </nav>
     </header>
     
-    <div class="bg-image" style="color: #202020;transform: translateY(70px)">
-      <main>
+    <div class="bg-image" style="color: #202020;" >
+      <main >
         <!-- Fondo -->
         <div class="container" style="background-color: black; height: 100%; width: 100%;">
           <div class="row">
@@ -96,38 +85,25 @@
                 <div style="height: 100%;width: 100%; position:fixed; z-index:auto; background-color: black;"></div>
                 <img src="./assets/vista_ny.jpg" alt="" style="position: fixed; z-index: auto; opacity: 0.25; background-color: black; height: 100%;">
               </div>  
+            </div>
           </div>
         </div>
-        </div>
-          <div
-          class="bg-image mt-0"
-          id=""
-          style="position:relative">
-        
+        <div  class="bg-image mt-0">
           <!-- Para quien es esto? -->
-          
-
-          <div class="container-fluid p-0 m-0" id="principal">
+          <div class="container-fluid  contenedores" id="principal">
             <div class="row-12">
               <div class="col-12 p-0">
-                <div class="container-fluid bg-info p-0">
-                  <h1 class="text-center p-4" style="background-color: #dfdfdf;">
+                <div class="container-fluid" style="background-color: #dfdfdf;">
+                  <h1 class="text-center p-4" >
                     ¿Para quién es esto y cuál es el objetivo?
                   </h1>
                 </div>
-
                 <div class="container pt-3">
                   <div class="row mx-auto" style="width: 10%;">
                     <img src="./assets/icons/flechas.png" alt="flechas" style="rotate: 22deg; height: 10%; filter: invert(0.75);">
                   </div>
                 </div>
-
-                <div
-                  class="container p-3 mb-5"
-                  style="background-color: #202020; color: #dfdfdf"
-                >
-                
-
+                <div class="container p-3 mb-5" style="background-color: #202020; color: #dfdfdf">
                   <div class="row">
                     <div class="col mx-5 px-5">
                       <p style="font-size: 130%">
@@ -150,12 +126,12 @@
         
           <!-- Introducción -->
       
-          <div class="container-fluid p-0 m-0" id="introduccion">
+          <div class="container-fluid  contenedores"  id="introduccion">
             <div class="row-12">
               <div class="col-12 p-0">
              
-                <div class="container-fluid bg-info p-0">
-                  <h1 class="text-center p-4" style="background-color: #dfdfdf;">Introducción</h1>
+                <div class="container-fluid" style="background-color: #dfdfdf;">
+                  <h1 class="text-center  p-4">Introducción</h1>
                 </div>
 
                 <div class="container p-5 mt-5 mb-5" style="background-color: #202020">
@@ -209,12 +185,12 @@
 
           <!-- Perfil academico -->
 
-          <div class="container-fluid p-0 m-0" id="perfil_academico">
+          <div class="container-fluid contenedores" id="perfil_academico">
             <div class="row-12">
               <div class="col-12 p-0">
 
-                <div class="container-fluid bg-info mt-5 p-0">
-                  <h1 class="text-center p-4 mt-5" style="background-color: #dfdfdf;">Perfil academico</h1>
+                <div class="container-fluid "  style="background-color: #dfdfdf;">
+                  <h1 class="text-center p-4">Perfil academico</h1>
                 </div>
                 <div
                   class="container mt-5"
@@ -273,11 +249,11 @@
 
           <!-- perfil laboral -->
 
-          <div class="container-fluid p-0 m-0" id="perfil_laboral">
+          <div class="container-fluid  contenedores" id="perfil_laboral">
             <div class="row-12">
               <div class="col-12 p-0">
-                <div class="container-fluid bg-info mt-5 p-0">
-                  <h1 class="text-center p-4 mt-5" style="background-color: #dfdfdf;">Perfil laboral</h1>
+                <div class="container-fluid" style="background-color: #dfdfdf;" >
+                  <h1 class="text-center p-4">Perfil laboral</h1>
                 </div>
                 <div
                   class="container p-5 mt-4"
@@ -339,12 +315,12 @@
 
           <!-- Viajes -->
 
-          <div class="container-fluid p-0 m-0 mb-4" id="viajes">
+          <div class="container-fluid mb-4  contenedores" id="viajes">
             <div class="row-12">
               <div class="col-12 p-0">
 
-                <div class="container-fluid bg-info mt-5 p-0">
-                  <h1 class="text-center p-4 mt-5" style="background-color: #dfdfdf;">Viajes</h1>
+                <div class="container-fluid" style="background-color: #dfdfdf;">
+                  <h1 class="text-center p-4">Viajes</h1>
                 </div>
                   <div
                   class="container p-5 mt-4"
