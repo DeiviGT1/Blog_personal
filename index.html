@@ -95,7 +95,7 @@
         </div>
       </nav>
     </header>
-    
+  
     <div class="bg-image" style="color: #202020;" data-offset="70">
       <main data-offset="70">
         <!-- Fondo -->
@@ -134,7 +134,7 @@
 
                 <div
                   class="container p-3 mb-5"
-                  style="background-color: #202020; color: #dfdfdf"
+                  style="background-color: #202020; color: #dfdfdf ;border-radius: 10px;"
                 >
                 
 
@@ -160,7 +160,7 @@
         
           <!-- Introducción -->
       
-          <div class="container-fluid p-0 m-0" id="introduccion">
+          <div class="container-fluid p-0 m-0 my-5" id="introduccion">
             <div class="row-12">
               <div class="col-12 p-0">
              
@@ -219,7 +219,7 @@
 
           <!-- Perfil academico -->
 
-          <div class="container-fluid p-0 m-0" id="perfil_academico">
+          <div class="container-fluid p-0 m-0 my-5" id="perfil_academico">
             <div class="row-12">
               <div class="col-12 p-0">
 
@@ -229,9 +229,10 @@
                 <div
                   class="container mt-5"
                   style="
-                    color: white;
+                    color: #dfdfdf;
                     text-align: center;
                     background-color: #202020;
+                    border-radius: 10px;
                   "
                 >
                   <div class="row">
@@ -283,15 +284,15 @@
 
           <!-- perfil laboral -->
 
-          <div class="container-fluid p-0 m-0" id="perfil_laboral">
+          <div class="container-fluid p-0 m-0 my-5" id="perfil_laboral">
             <div class="row-12">
               <div class="col-12 p-0">
                 <div class="container-fluid mt-5 p-0">
                   <h1 class="text-center p-4 mt-5" style="background-color: #dfdfdf;">Perfil laboral</h1>
                 </div>
                 <div
-                  class="container p-5 mt-4"
-                  style="background-color: #202020; color: azure"
+                  class="container p-5 mt-5"
+                  style="background-color: #202020; color: #dfdfdf; border-radius: 10px;"
                 >
                   <div class="row m-5">
                     <div class="col-12 col-lg-6">
@@ -357,8 +358,8 @@
                   <h1 class="text-center py-4" style="background-color: #dfdfdf;">Viajes</h1>
                 </div>
                   <div
-                  class="container p-5 mt-4"
-                  style="background-color:#202020; color: azure">
+                  class="container p-5 mt-5"
+                  style="background-color:#202020; color: #dfdfdf ">
                   <div class="row">
                     <div class="col">
                       <p>Esta sección es a modo de alegria personal</p>
@@ -461,28 +462,28 @@
 
 
     <footer id="">
-      <div class="container-fluid pt-2 pb" style="color:aqua; ">
+      <div class="container-fluid pt-2 pb" >
         <div class="row text-center">
-          <div class="col-2" style="background-color:white; height: 56px;">
+          <div class="col-2" style="background-color:#dfdfdf; height: 56px; border-color: #202020; border-style: solid; border-width: 1.5px;">
             <a href="https://github.com/DeiviGT1">
-              <img src="./assets/icons/Github.png" alt="" style="height: 100%">
+              <img src="./assets/icons/Github.png" alt="" style="height: 100%;">
             </a>
           </div>
-          <div class="col-2" style="background-color:white; height: 56px;">
+          <div class="col-2" style="background-color:#dfdfdf; height: 56px;border-color: #202020; border-style: solid;border-width: 1.5px;">
             <a href="https://www.linkedin.com/in/davidgt1/">
               <img src="./assets/icons/linkedln.png" alt="" style="filter: invert(1);height: 60%; top: 12px; position:relative">
             </a>
           </div> 
-          <div class="col" style="background-color:white; color: #dfdfdf;">
+          <div class="col" style="background-color:#dfdfdf; color: #202020; border-color: #202020; border-style: solid;border-width: 1.5px;">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#exampleModal">
-              Launch demo modal
+              Ingrese su informacion
             </button>
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color: #dfdfdf;">
               <div class="modal-dialog" role="document">
-                <div class="modal-content">
+                <div class="modal-content bg-dark">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -490,14 +491,18 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <form>
+                    <form >
                       <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <label for="exampleInputName" class="form-label">Nombre y apellido</label>
+                        <input type="name" class="form-control" id = "exampleInputName" aria-activedescendant="nameHelp">
                       </div>
                       <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Esta informacion solo será utilizada para el uso practico de la misma, no se compartiran sus datos bajo ninguna circunstancia.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                         <input type="password" class="form-control" id="exampleInputPassword1">
                       </div>
                     </form>
@@ -510,7 +515,6 @@
               </div>
             </div>  
           </div>
-          
         </div>
       </div>
     </footer>
