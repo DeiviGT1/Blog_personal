@@ -50,9 +50,8 @@ function modo() {
   document.getElementById("modo_actual_pagina").src = nueva_pagina;
 }
 
-const myModal = document.getElementById('myModal')
-const myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
+// Close modal
+$('#save').click(function() {
+  
+  $('#exampleModal').modal('hide');
+});
