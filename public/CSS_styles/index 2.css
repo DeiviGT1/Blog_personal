@@ -1,0 +1,20 @@
+body{
+    position: relative!important;
+}
+.contenedores{
+    padding:70px 0px!important;
+}
+#main div div{
+    margin-top: 100px ;
+}
+
+#search-button:hover{
+    color: bisque;
+    background-color: bisque;
+}
+
+@media(max-width:986px) {
+    .contenedores{
+        padding:50px 0px!important;
+    }
+}
