@@ -1,11 +1,13 @@
-import './App.css';
-import {Router} from "@reach/router"
+import { Router } from '@reach/router';
+import { Home } from './Home';
 
 function App() {
+  console.log("contador")
   return (
-    <div className="App">
-  
-    </div>
+    <Router>
+      <Home path= '/'/>
+      <Home path= '/contador'/>
+    </Router>
   );
 }
 
