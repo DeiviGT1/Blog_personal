@@ -1,36 +1,21 @@
-import {Routes, Route, BrowserRouter, useLocation} from "react-router-dom"
+import { Route, HashRouter, Routes } from "react-router-dom"
 import { Home } from './Home';
+import { Blog } from './Blog'
 
 function App() {
   
   return (
-    <BrowserRouter>
-      <MyComponent/>
+    <>
+    <HashRouter>
       <Routes>
-        <Route exact path= "/" element={<Home />}/>
-        <Route exact path="/" element ={<Home />}/>
-        <Route exact path="/contador.html" element ={<Home />}/>
-        <Route exact path="/contador" element ={<Home />}/>
-        <Route exact path="contador" element ={<Home />}/>
-        <Route exact path="contador.html" element ={<Home />}/>
-        <Route exact path="/public/contador.html" element ={<Home />}/>
-        <Route exact path="/public/contador" element ={<Home />}/>
-        <Route exact path="../public/contador.html" element ={<Home />}/>
-        <Route exact path="../public/contador" element ={<Home />}/>
-        <Route exact path="http://localhost:3000/contador.html" element ={<Home />}/>
-        <Route exact path="http://localhost:3000/contador" element ={<Home />}/>
-        <Route exact path="./contador.html" element ={<Home />}/>
-        <Route exact path="./contador" element ={<Home />}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Blog" element={<Blog/>}/>
+        <Route path="*" element={<p>Not Found</p>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
+    </>
     
   );
-}
-
-function MyComponent() {
-  const location = useLocation()
-  const currentPath = location.pathname
-  console.log(currentPath)
 }
 
 export default App
