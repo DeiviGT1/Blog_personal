@@ -1,0 +1,14 @@
+.header{
+  background-color: #202020
+}
+
+#imagenInicio{
+  height: 45px;
+  filter: invert(0.5)
+}
+
+#modo{
+  height: 45px;
+  filter: invert(0.5)
+}
+
