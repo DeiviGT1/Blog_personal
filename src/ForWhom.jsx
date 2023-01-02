@@ -15,7 +15,7 @@ function ForWhom() {
               ¿Para quién es esto y cuál es el objetivo?
               </h1>
             </div>
-            <div className="container pt-3">
+            <div className=" pt-3">
               <div className="row mx-auto" id="contenedor-flecha">
                 <img 
                   src={flecha}
