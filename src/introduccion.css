@@ -1,0 +1,23 @@
+#titulo{
+    background-color: #343a40; 
+    color: #dfdfdf;
+}
+
+#box{
+    background-color: #202020; 
+    border-radius: 10px;
+}
+
+#fotoPersonal{
+    width: 80%;
+    border-radius: 5%;
+    object-fit: cover;
+    height: 450px;
+    object-position: 100% 10%;
+}
+
+.cajaTexto{
+    background-color: #dfdfdf; 
+    border-radius: 10px; 
+    color: #202020
+}
