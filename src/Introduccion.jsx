@@ -9,7 +9,9 @@ function Introduccion () {
       <div className="row-12">
         <div className="col-12 p-0">
           <div className="container-fluid" id="titulo">
-            <h1 className="text-center p-4">
+            <h1 
+              className="text-center p-4"
+              id="introduccion">
               Introduccion
             </h1>
           </div>

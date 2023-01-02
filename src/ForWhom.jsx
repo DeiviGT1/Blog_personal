@@ -2,12 +2,14 @@ import React from "react";
 import { Header } from "./Header";
 import "./forWhom.css"
 import flecha from "./assets/icons/flechas.png"
+import { Fondo } from "./Fondo";
 
 function ForWhom() {
   return(
       <>
-      <Header/>
+      
       <div className="container-fluid  contenedores">
+        
         <div className="row-12">
           <div className="col-12 p-0">
             <div className="container-fluid p-0" id="titulo">
@@ -44,6 +46,7 @@ function ForWhom() {
           </div>
         </div>
       </div>
+      
       </>
   )
 }

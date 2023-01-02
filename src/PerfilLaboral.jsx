@@ -8,7 +8,10 @@ function PerfilLaboral(){
       <div className="row-12">
         <div className="col-12 p-0">
           <div className="container-fluid titulo">
-            <h1 className="text-center p-4">Perfil laboral</h1>
+            <h1 
+              className="text-center p-4"
+              id="perfilLaboral">
+              Perfil laboral</h1>
           </div>
           <div className="container p-5 mt-5">
             <div className="row m-5">

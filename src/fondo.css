@@ -1,0 +1,6 @@
+.imagenFondo{
+  position: absolute;
+  opacity: 50%;
+  z-index: 1;
+  top: 0;
+}

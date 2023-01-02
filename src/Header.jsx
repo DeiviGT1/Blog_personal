@@ -32,22 +32,22 @@ function Header() {
                 <li className="nav-item">
                   <a 
                   className="nav-link"
-                  href="#">Introduccion</a>
+                  href="#introduccion">Introduccion</a>
                 </li>
                 <li className="nav-item">
                   <a 
                   className="nav-link"
-                  href="#">Perfil academico</a>
+                  href="#perfilAcademico">Perfil academico</a>
                 </li>
                 <li className="nav-item">
                   <a 
                   className="nav-link"
-                  href="#">Perfil laboral</a>
+                  href="#perfilLaboral">Perfil laboral</a>
                 </li>
                 <li className="nav-item">
                   <a 
                   className="nav-link"
-                  href="#">Viajes</a>
+                  href="#viajes">Viajes</a>
                 </li>
               </ul>
               <form className="d-flex ms-auto p-2 pe-5 bd-highlight my-2 my-lg-0">
