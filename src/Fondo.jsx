@@ -5,11 +5,22 @@ import "./fondo.css"
 function Fondo () {
   return(
     <>
-    <img 
-      src={ImagenFondo} 
-      alt="" 
-      className="imagenFondo"
-    />
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <div className="container-fluid contenedorFondo">
+            <div className="backgroundColor" id="background-color">
+              <img 
+                src={ImagenFondo} 
+                alt="" 
+                className="imagenFondo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     </>
   )
 }

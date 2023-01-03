@@ -1,13 +1,14 @@
 import React from "react";
 import inicio from "./assets/icons/inicio.png" 
 import luna from "./assets/icons/luna.png"
+import { modo } from "./indexwebpage"
 import "./header.css"
 
 function Header() {
     return(
-        <header className="navbar-dark navbar-expand-lg ps-4 fixed-top header">
+        <header className="navbar-dark navbar-expand-lg ps-4 fixed-top header" id="header">
           <nav className="navbar navbar-expand-lg">
-            <a href="#" className="navbar-brand mr-3">
+            <a href="#" className="navbar-brand mr-3" id="inicio">
               <img 
                 src={inicio} alt="" 
                 id="imagenInicio"/>
@@ -67,7 +68,8 @@ function Header() {
                 <img 
                   src={luna} 
                   alt="modo" 
-                  id="modo"/>
+                  id="modo_actual_pagina"
+                  onClick={modo}/>
               </a>
             </div>
           </nav>    

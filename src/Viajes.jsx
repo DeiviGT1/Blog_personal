@@ -24,7 +24,7 @@ function Viajes(){
               id="viajes">
               Viajes</h1>
           </div>
-          <div className="container p-5 mt-5">
+          <div className="container p-5 mt-5" id="box">
             <div className="row">
               <div className="col">
                 <p>

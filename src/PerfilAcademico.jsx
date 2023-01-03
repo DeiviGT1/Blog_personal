@@ -7,14 +7,14 @@ function PerfilAcademico () {
     <div className="container-fluid contenedores">
       <div className="row-12">
         <div className="col-12 p-0">
-          <div className="container-fluid titulo">
+          <div className="container-fluid titulo" id="titulo">
             <h1 
               className="text-center p-4"
               id="perfilAcademico">
               Perfil academico
             </h1>
           </div>
-          <div className="container mt-5">
+          <div className="container mt-5" id="box">
             <div className="row">
               <div className="col-lg-4 col-12 pt-5 pt-lg-3 estudio">
                 <h2>Universidad nacional de Colombia</h2>

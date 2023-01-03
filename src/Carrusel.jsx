@@ -16,7 +16,7 @@ function Carrusel ( props ){
     const ultimoIndex = props.imagenes.length - 1;
     const resetearIndex = imagen === ultimoIndex;
     const index = resetearIndex ?  0 : imagen + 1;
-    setImagen(index)  
+    setImagen(index) 
   }
   
   return(

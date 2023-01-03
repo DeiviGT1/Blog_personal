@@ -12,6 +12,7 @@ function App() {
   
   return (
     <>
+      <Fondo/>
       <Header/>
       <ForWhom/>
       <Introduccion/>
