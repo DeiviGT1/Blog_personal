@@ -1,5 +1,5 @@
 import {React, useState} from "react"
-import { Pantalla } from "./Pantalla"
+import { Pantalla } from "../ComponentesGenericos/Pantalla"
 import { Boton } from "./Botones"
 
 function Cont(){

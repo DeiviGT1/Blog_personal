@@ -1,9 +1,9 @@
-function Boton ( { children, cambioClic, botonNum } ) {
+function Boton ( { children, cambioClic, botonNum ,botonEq } ) {
 
   return (
     <>
     <button
-      className= {botonNum ? "botonNum" : "botonOp"}
+      className= {botonNum ? "botonNum" : botonEq ? "botonEq" : "botonOp"}
       onClick={cambioClic}>
       {children}
     </button>
