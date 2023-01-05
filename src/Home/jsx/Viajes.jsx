@@ -1,13 +1,12 @@
 import React from "react";
-import "./viajes.css"
-
 import { Carrusel } from "./Carrusel";
-import banderas from "./assets/banderas.jpg"
-import cataratas from "./assets/cataratas.jpg"
-import david_beckham from "./assets/david_beckham.jpg"
-import hotel from "./assets/hotel.jpg"
-import loveism from "./assets/loveism.jpg"
-import puerto from "./assets/puerto.jpg"
+
+import banderas from "../../assets/banderas.jpg"
+import cataratas from "../../assets/cataratas.jpg"
+import david_beckham from "../../assets/david_beckham.jpg"
+import hotel from "../../assets/hotel.jpg"
+import loveism from "../../assets/loveism.jpg"
+import puerto from "../../assets/puerto.jpg"
 
 
 function Viajes(){

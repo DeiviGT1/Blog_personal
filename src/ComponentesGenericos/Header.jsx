@@ -1,18 +1,19 @@
 import React from "react";
-import inicio from "./assets/icons/inicio.png" 
-import luna from "./assets/icons/luna.png"
+import inicio from "../assets/icons/inicio.png" 
+import luna from "../assets/icons/luna.png"
 import { modo } from "./indexwebpage"
-import "./header.css"
 
 function Header() {
     return(
         <header className="navbar-dark navbar-expand-lg ps-4 fixed-top header" id="header">
           <nav className="navbar navbar-expand-lg">
-            <a href="#" className="navbar-brand mr-3" id="inicio">
-              <img 
-                src={inicio} alt="" 
-                id="imagenInicio"/>
+            <a href="/" className="navbar-brand mr-3 HeaderGenericos" id="inicio">
+                <img 
+                  src={inicio} alt="" 
+                  id="imagenInicio"/>
+              <h3> ↩️ Regresar al inicio  </h3>
             </a>
+            
             <button 
               className="navbar-toggler" 
               type="button" 
@@ -24,33 +25,6 @@ function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse">
-              <ul className="navbar-nav mr-md-2 mr-0">
-                <li className="nav-item">
-                  <a 
-                  className="nav-link"
-                  href="#">Inicio</a>
-                </li>
-                <li className="nav-item">
-                  <a 
-                  className="nav-link"
-                  href="#introduccion">Introduccion</a>
-                </li>
-                <li className="nav-item">
-                  <a 
-                  className="nav-link"
-                  href="#perfilAcademico">Perfil academico</a>
-                </li>
-                <li className="nav-item">
-                  <a 
-                  className="nav-link"
-                  href="#perfilLaboral">Perfil laboral</a>
-                </li>
-                <li className="nav-item">
-                  <a 
-                  className="nav-link"
-                  href="#viajes">Viajes</a>
-                </li>
-              </ul>
               <form className="d-flex ms-auto p-2 pe-5 bd-highlight my-2 my-lg-0">
                 <input 
                 className="form-control mr-sm-2"

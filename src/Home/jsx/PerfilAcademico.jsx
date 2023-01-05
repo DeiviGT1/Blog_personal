@@ -1,5 +1,4 @@
 import React from "react";
-import "./perfilacademico.css"
 
 function PerfilAcademico () {
   return(

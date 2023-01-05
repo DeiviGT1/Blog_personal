@@ -1,8 +1,5 @@
 import React from "react";
-import { Header } from "./Header";
-import "./forWhom.css"
-import flecha from "./assets/icons/flechas.png"
-import { Fondo } from "./Fondo";
+import flecha from "../../assets/icons/flechas.png"
 
 function ForWhom() {
   return(

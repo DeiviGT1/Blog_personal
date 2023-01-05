@@ -1,6 +1,5 @@
 import React from "react";
-import ImagenFondo from "./assets/vista_ny.jpg"
-import "./fondo.css"
+import ImagenFondo from "../../assets/vista_ny.jpg"
 
 function Fondo () {
   return(

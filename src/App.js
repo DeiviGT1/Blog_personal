@@ -1,25 +1,19 @@
-import { Route, HashRouter, Routes } from "react-router-dom"
-import { Header } from "./Header.jsx"
-import {ForWhom} from "./ForWhom.jsx"
-import {Introduccion} from "./Introduccion.jsx"
-import {PerfilAcademico} from "./PerfilAcademico.jsx"
-import { PerfilLaboral } from "./PerfilLaboral.jsx";
-import { Viajes } from "./Viajes.jsx";
-import { Footer } from "./Footer.jsx"
-import { Fondo } from "./Fondo.jsx"
+import { Route, HashRouter, Routes, BrowserRouter } from "react-router-dom"
+import { Home } from "./Home/Home"
+import { Contador } from "./Contador/Contador"
+import { Calculadora } from "./Calculadora/Calculadora"
 
 function App() {
   
   return (
     <>
-      <Fondo/>
-      <Header/>
-      <ForWhom/>
-      <Introduccion/>
-      <PerfilAcademico/>
-      <PerfilLaboral/>
-      <Viajes/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>}/> 
+          <Route path="/contador" element = {<Contador/>}/>
+          <Route path="/calculadora" element = {<Calculadora/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
     
   );

@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 body{
   position: relative!important;
 }
 .contenedores{
-  padding:70px 0px!important;
+  /* padding:70px 0px!important; */
+  padding-top: 70px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
 }
 #main div div{
   margin-top: 100px ;
@@ -15,6 +20,231 @@ body{
 
 @media(max-width:986px) {
   .contenedores{
-      padding:50px 0px!important;
+      padding-top: 50px!important;
+      padding-left: 0px!important;
+      padding-right: 0px!important;
   }
+}
+
+#titulo{
+  background-color: #343a40; 
+  color: #dfdfdf;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#titulo h1{
+  margin-bottom: 0px;
+}
+
+.imagenCarrusel{
+  width: 100%;
+}
+
+.contFooter{
+  background-color:#202020;
+  height: 50px; 
+  border-color: #dfdfdf;
+}
+
+.footer{
+  height: 50px; 
+  background-color:#202020;
+}
+
+.github{
+  filter: invert(1);
+  height: 100%; 
+  position:relative
+}
+
+.linkedln{
+  filter: invert(0);
+  top: 20%;
+  height: 60%; 
+  position:relative
+}
+
+.instagram{
+  filter: invert(1);
+  top: 10%;
+  height: 80%; 
+  position:relative
+}
+
+.contenedorFondo{
+  justify-content:center; 
+  display:flex;
+}
+
+.backgroundColor{
+height: 100%;
+width: 100%; 
+position:fixed; 
+z-index:auto; 
+justify-content:center; 
+background-color: black;
+}
+
+.imagenFondo{
+position: fixed;
+z-index: auto;
+opacity: 0.25;
+justify-content:center; 
+padding:140px 0px;
+width: 100%;
+}
+
+#flecha-inicio{
+  rotate: 22deg;
+  height: 10%; 
+  filter: invert(0.75)
+}
+
+#contenedor-flecha{
+  width: 10%;
+}
+
+#titulo{
+  background-color: #343a40; 
+  color: #dfdfdf;
+}
+
+#box{
+  background-color: #202020; 
+  color: #dfdfdf;
+  border-radius: 10px;
+}
+
+.header{
+  background-color: #202020
+}
+
+#imagenInicio{
+  height: 45px;
+  filter: invert(0.5)
+}
+
+#modo_actual_pagina{
+  height: 45px;
+  filter: invert(0.5)
+}
+
+#titulo{
+  background-color: #343a40; 
+  color: #dfdfdf;
+}
+
+#box{
+  background-color: #202020; 
+  border-radius: 10px;
+}
+
+#fotoPersonal{
+  width: 80%;
+  border-radius: 5%;
+  object-fit: cover;
+  height: 450px;
+  object-position: 100% 10%;
+}
+
+.cajaTexto{
+  background-color: #dfdfdf; 
+  border-radius: 10px; 
+  color: #202020
+}
+
+.titulo{
+  background-color: #343a40; 
+  color: #dfdfdf;
+}
+
+.container{
+  color: #dfdfdf;
+  background-color: #202020;
+  border-radius: 10px;
+}
+
+.estudio{
+  text-align: center;
+}
+
+.experiencias{
+  text-align: center;
+}
+
+.fondo{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(142, 142, 142);
+  padding: 30px;
+}
+
+.cajaContadorCont{
+  height: 100%;
+  width: 30rem; 
+  position: relative;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.cajaContadorCont button{
+  width: 96%;
+  height: 4rem;
+  margin: 0px 2% 5% 2%;
+  border-radius: 10px;
+  color: #dfdfdf;
+  font-weight: 500;
+}
+
+.cajaContadorCalc{
+  height: 100%;
+  width: 30rem; 
+  position: relative;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.pantalla{
+  position: relative;
+  top: 1rem;
+  height: 60%;
+  text-align: center;
+  background-color:  rgb(244, 244, 244);
+  margin-bottom: 50px;
+}
+
+.pantalla p{
+  position: relative;
+  top: 10%;
+  font-weight: bold;
+  font-size: 32px;
+  height: 100%;
+  font-family: 'Source Code Pro', monospace;;
+  color: #202020;
+}
+
+.botonSuma{
+  background-color: rgb(0, 73, 0);
+}
+
+.botonReinicio{
+  background-color: rgb(122, 0, 0);
+}
+
+.HeaderGenericos{
+  display: inline-flex;
+  color: #343a40;
+  /* background-color: pink; */ 
+}
+
+.HeaderGenericos img{
+  margin-right: 50px;
+} 
+
+.HeaderGenericos h3{
+  position: relative;
+  top: 4px;
+  margin: 0;
+  color: #808080
 }

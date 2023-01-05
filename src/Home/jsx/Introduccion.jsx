@@ -1,6 +1,5 @@
 import React from "react"
-import "./introduccion.css"
-import fotoPersonal from "./assets/foto_personal.jpg"
+import fotoPersonal from "../../assets/foto_personal.jpg"
 
 function Introduccion () {
   return(
