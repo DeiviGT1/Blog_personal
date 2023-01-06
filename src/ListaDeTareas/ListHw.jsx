@@ -4,13 +4,22 @@ import { React, useState, useRef } from "react"
 import { v4 as uuidv4 } from 'uuid';
 
 function ListHw ( ) {
-  
 
-  const [state, setState] = useState([])
+  const getData = () =>{
+    if (localStorage.getItem("ITEMS")){
+      const lStorage = JSON.parse(localStorage.getItem("ITEMS"))
+      return lStorage
+    } else {
+      const lStorage = []
+      return lStorage
+    }
+  }
+
+  const [state, setState] = useState(getData())
 
   const inputEle = useRef(null);
-  
-  const clic = (event) => {
+
+  const AñadirTarea = (event) => {
     event.preventDefault();
 
     const tareaNueva = {
@@ -20,6 +29,7 @@ function ListHw ( ) {
     }
 
     const tareasActualizadas = [tareaNueva, ...state]
+    localStorage.setItem("ITEMS", JSON.stringify(tareasActualizadas))
     setState(tareasActualizadas)
   };
 
@@ -30,11 +40,14 @@ function ListHw ( ) {
         }
         return tarea
       })
+    localStorage.setItem("ITEMS", JSON.stringify(tareasActualizadas))
     setState(tareasActualizadas)
   }
 
   const eliminarTarea = (id) =>{
+    console.log(state)
     let tareasActualizadas = state.filter(obj => obj.id !== id) 
+    localStorage.setItem("ITEMS", JSON.stringify(tareasActualizadas))
     setState(tareasActualizadas)
     }
   
@@ -47,7 +60,7 @@ function ListHw ( ) {
       type="input"
       ref={inputEle}
     />
-    <button onClick={clic}>Añadir tarea</button>
+    <button onClick={AñadirTarea}>Añadir tarea</button>
   </form>
       <div className="listaTareas">
         {state.map(tarea=>(
