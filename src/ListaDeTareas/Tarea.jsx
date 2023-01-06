@@ -1,9 +1,15 @@
-function Tarea ( {children} ){
+function Tarea ( {children, completed, completarTarea, eliminarTarea} ){
+
   return (
     <>  
-      <p>
-        {children}
-      </p>
+    <div className="tarea">
+      <a onClick={completarTarea}>
+        <p className={completed ? "tareaCompletada" : "tareaporCompletar" }>
+          {children}
+        </p>
+      </a>
+      <p className="tareaImg" onClick={eliminarTarea}>❌</p>
+    </div>
     </>
   )
 }

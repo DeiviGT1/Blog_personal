@@ -1,42 +1,64 @@
 import { Pantalla } from "../ComponentesGenericos/Pantalla"
-import { AñadirTarea } from "./AñadirTarea"
 import { Tarea } from "./Tarea"
 import { React, useState, useRef } from "react"
+import { v4 as uuidv4 } from 'uuid';
 
-var tareas = [
-  "Tarea1", "Tarea2", "Tarea3", "Tarea4"
-]
-
-function ListHw ( {children} ) {
+function ListHw ( ) {
   
 
-  const [state, setState] = useState(tareas)
+  const [state, setState] = useState([])
 
   const inputEle = useRef(null);
-
+  
   const clic = (event) => {
     event.preventDefault();
-    tareas.push(inputEle.current.value)
-    console.log(tareas)
-    setState(tareas)
+
+    const tareaNueva = {
+      id: uuidv4(),
+      texto: inputEle.current.value,
+      completed: false
+    }
+
+    const tareasActualizadas = [tareaNueva, ...state]
+    setState(tareasActualizadas)
   };
+
+  const completarTarea = (id) =>{
+    const tareasActualizadas = state.map(tarea => {
+        if (tarea.id === id){
+          tarea.completed = !tarea.completed
+        }
+        return tarea
+      })
+    setState(tareasActualizadas)
+  }
+
+  const eliminarTarea = (id) =>{
+    let tareasActualizadas = state.filter(obj => obj.id !== id) 
+    setState(tareasActualizadas)
+    }
+  
 
   return(
     <>
     <div className="cajaListaListHw container">
-      
-        {/* <AñadirTarea> ¿Añadir tarea? </AñadirTarea> */}
-        <form action="">
-        <input
-          type="input"
-          ref={inputEle}
-        />
-        <button onClick={clic}>{children}</button>
-      </form>
-      {state.map(tarea=>(
-        <Tarea
-          key={tarea}> {tarea} </Tarea>
-      ))}
+    <form action="">
+    <input
+      type="input"
+      ref={inputEle}
+    />
+    <button onClick={clic}>Añadir tarea</button>
+  </form>
+      <div className="listaTareas">
+        {state.map(tarea=>(
+          <Tarea
+            key = {tarea.id}
+            completed = {tarea.completed} 
+            id = {tarea.id}
+            completarTarea={() => {completarTarea(tarea.id)}}
+            eliminarTarea = {() =>{eliminarTarea(tarea.id)}}> {tarea.texto} </Tarea>
+        ))}
+      </div>
     </div>
     </>
   )

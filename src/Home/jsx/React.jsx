@@ -41,7 +41,7 @@ function ReactWeb() {
             <div className="container mt-5" id="box">
               <div className="row">
                 <div className="col p-5">
-                <Link to="/contador"><h2>Lista de tareas</h2></Link> 
+                <Link to="/listadetareas"><h2>Lista de tareas</h2></Link> 
                   <p>
                     Este proyecto tiene de objetivo usar herramientas nuevas
                     para manejar el estado, crear y eliminar tareas y usar el
