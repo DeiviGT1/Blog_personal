@@ -1,5 +1,5 @@
 import React from "react"
-// import fotoPersonal from "../../assets/foto_personal.jpg"
+import fotoPersonal from "../../assets/fotoPersonal.jpg"
 
 
 function Introduccion () {
@@ -19,7 +19,7 @@ function Introduccion () {
             <div className="row">
               <div className="col-12 col-lg-4 ml-4 pl-4 ml-lg-0">
                 <img 
-                  src="HOLA"
+                  src={fotoPersonal}
                   alt="fotoPersonal" 
                   id="fotoPersonal"/>
               </div>
