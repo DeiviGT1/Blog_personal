@@ -9,7 +9,7 @@ function Calc (){
   const numbers = [7,8,9,4,5,6,1,2,3,0]
 
   const setNumber = (number) =>{
-    if (state != 0){
+    if (state !== 0){
       setState(state.toString() + number.toString())
     } else {
       setState(number)
