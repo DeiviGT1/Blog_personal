@@ -1,0 +1,61 @@
+#imagenCertificado{
+  width: 100%;
+}
+
+.subtitulo{
+  display: flex;
+  background-color: #343a40;
+}
+
+.subtitulo h2{
+  margin-left: 1rem;
+}
+
+.despliegue{
+  height: 30px;
+  filter: invert(75%);
+  margin-top: 30%;
+  padding-left: 25%;
+}
+
+.despliegueFalse{
+  height: 30px;
+  filter: invert(75%);
+  margin-top: 0%;
+  padding-left: 50%;
+  transform: rotate(90deg);
+}
+
+.despliegue:hover{
+  cursor: pointer;
+}
+
+.despliegueFalse:hover{
+  cursor: pointer;
+}
+
+.certsTrue{
+  display: none
+}
+
+.GrupoCertificados{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.certsFalse{
+  flex-basis: calc(50% - 100px);
+  margin: 10px;
+}
+
+.seccion{
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+  .certsFalse{
+    flex-basis: calc(100% - 100px);
+  }
+  
+}
