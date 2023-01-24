@@ -1,7 +1,7 @@
 <h1 align="center"> Blog Personal </h1>
 
 <p align="center">
-  <img src="./assets/fondo.png" alt="Sublime's custom image"/>
+  <img src="./src/assets/fondo.png" alt="Sublime's custom image"/>
 </p>
 
 <br>
