@@ -20,7 +20,7 @@
 
 ## 🛠️ Abre y ejecuta el proyecto
 
-**Este blog se puede visualizar utilizando el link [Blog David](https://master--zesty-crumble-ba8d05.netlify.app/)"" <br>
+**Este blog se puede visualizar utilizando el link [Blog David](https://blogdavid1.netlify.app/)"" <br>
 **Se puede correr el archivo desde la terminal en cualquier sistema operativo**
 
 <br>
