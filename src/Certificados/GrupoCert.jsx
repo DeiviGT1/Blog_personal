@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import despliegue from "../assets/icons/despliegue.png"
 import { Cert} from "./Cert.jsx"
 
-function GrupoCert ( { titulo, lst } ) {
+function GrupoCert ( { titulo, lstTitles, lstImages, lstDescs, len } ) {
 
   const [certificados, setCertificados] = useState(true);
 
@@ -23,11 +23,11 @@ function GrupoCert ( { titulo, lst } ) {
           <h2 className="titulo">{titulo}</h2>
         </div>
         <div className='GrupoCertificados'>
-          {lst.map((item) => (
+          {len.map((item) => (
           <Cert
-            titulo={"certificado"}
-            descripcion = {"certificado"}
-            imagen = {item}
+            titulo={lstTitles[item]}
+            descripcion = {lstDescs[item]}
+            imagen = {lstImages[item]}
             key = {item}
             estado = {certificados}
             />

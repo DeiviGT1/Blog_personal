@@ -41,6 +41,7 @@ function Footer () {
             </a>
           </div>
           <div className="col footer"></div>
+          
       </div>
     </div>
     </>
