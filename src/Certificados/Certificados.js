@@ -38,6 +38,14 @@ import PythonforEverybody from "../assets/diplomas/Coursera/Coursera Python for 
 
 
 function Certificados(){
+  const range = (limit) => {
+    const result = [];
+    for (let i = 0; i < limit; i++) {
+      result.push(i);
+    }
+    return result;
+  }
+
   const ExcelAdvancedDesc =  "He aprendido a utilizar VBA para automatizar tareas repetitivas y personalizar soluciones de Excel mediante la creación de macros, funciones y procedimientos personalizados, y trabajando con objetos en Excel. En resumen, este curso me ha permitido ampliar mis habilidades y tener una comprensión más profunda de cómo utilizar Excel de manera efectiva."
   const ExcelBusinessDesc = "Como estudiante de un curso avanzado de Excel, he aprendido a utilizar funciones avanzadas, tablas dinámicas y gráficos para analizar y presentar datos de manera eficiente."
   const GoogleITDesc = "En este curso, he adquirido habilidades y conocimientos en tecnología de la información, incluyendo sistemas operativos, redes, seguridad, programación y desarrollo web. Además, he aprendido sobre herramientas y aplicaciones Google, como Google Cloud Platform y Google Apps. He desarrollado habilidades en resolución de problemas, automatización y administración de sistemas, dándome una base sólida en el mundo de la tecnología de la información."
@@ -55,6 +63,7 @@ function Certificados(){
     PostgreSQLforEverybody,
     PythonforEverybody,
     ]
+  const lenCoursera = range(lstCoursera.length)
   
 
   const MachineLearningMindsDBDesc = "Aprendí a desarrollar modelos de aprendizaje automático y aplicarlos para solucionar problemas reales en diferentes industrias. Adquirí habilidades en preprocesamiento de datos, selección de modelos, entrenamiento y validación de modelos, y toma de decisiones basadas en resultados. Aprendí a trabajar con diferentes algoritmos y técnicas de Machine Learning, incluyendo regresión, clasificación, agrupamiento y reducción de dimensionalidad."
@@ -78,6 +87,7 @@ function Certificados(){
     RedesNeuronales,
     MachineLearningScikitLearn,
     ]
+  const lenMachineLearning = range(lstMachineLearning.length)
 
   const FundamentosBDDesc = "prendí sobre modelado, normalización, y consultas en SQL. Manejo y manipulación de datos en tablas relacionales y no relacionales. Conocí funciones y operadores de SQL, diferentes tipos de relaciones y tecnologías como DBMS. Adquirí habilidades para gestionar y almacenar datos de manera eficiente."
   const PostgreSQLDesc = "En este curso, he aprendido a trabajar con la base de datos PostgreSQL, un sistema de gestión de bases de datos relacional de código abierto. He aprendido a crear y administrar bases de datos, a escribir consultas avanzadas y a optimizar el rendimiento de las mismas. También he aprendido sobre la seguridad de la base de datos y cómo respaldar y recuperar datos."
@@ -91,6 +101,7 @@ function Certificados(){
     PostgreSQL,
     Spark,
     ]
+  const lenBasesDeDatos = range(lstBasesDeDatos.length)
 
   const CalculosDiferencialDesc = "Aprendí a resolver problemas complejos de cálculo diferencial usando fórmulas y teoremas. También aprendí a utilizar herramientas como gráficos y tablas para visualizar soluciones."
   const DockerDesc = "Aprendí sobre contenedores y cómo Docker los utiliza para crear entornos aislados. Adquirí habilidades para crear imágenes, gestionar contenedores y usar Dockerfiles. Conocí sobre redes en Docker y cómo desplegar aplicaciones en contenedores. Aprendí sobre la integración de Docker en diferentes sistemas y cómo utilizarlo para mejorar la eficiencia y escalabilidad en proyectos."
@@ -114,10 +125,12 @@ function Certificados(){
     Opp,
     PandasNumpy,
     ]
+  const lenFundamentos = range(lstFundamentos.length)
 
   const FundamentosGCPDesc = "Aprendí sobre los servicios de infraestructura en la nube de Google, incluyendo Compute Engine, App Engine, Kubernetes Engine y Cloud Storage. Conocí cómo crear y administrar máquinas virtuales, aplicaciones y contenedores en la nube. Aprendí sobre la seguridad en la nube y cómo proteger datos y aplicaciones en GCP. Adquirí habilidades en el desarrollo de aplicaciones escalables y la integración de GCP con otras tecnologías. También aprendí cómo utilizar herramientas como BigQuery y Cloud SQL para análisis y almacenamiento de datos a gran escala."
   const lstNubeDesc = [FundamentosGCPDesc]
   const lstNube = [FundamentosGCP]
+  const lenNube = range(lstNube.length)
 
   const IntroduccionBackendDesc = "Aprendí sobre el desarrollo de aplicaciones en el lado del servidor. Adquirí conocimientos en lenguajes de programación como Python, Node.js o Ruby. Aprendí sobre bases de datos y cómo integrarlas con aplicaciones. Conocí diferentes arquitecturas y patrones de diseño en el desarrollo de aplicaciones backend. Aprendí sobre el procesamiento de peticiones HTTP y la creación de API REST. Adquirí habilidades en el manejo de seguridad, escalabilidad y rendimiento en aplicaciones backend. También aprendí sobre el deployment y la integración continua en plataformas como Heroku o AWS."  
   const FastAPIDesc = "En el curso de fundamentos de FastAPI, aprendí a crear aplicaciones web y API en tiempo real utilizando Python y FastAPI. Aprendí cómo manejar peticiones HTTP y cómo construir rutas y funciones que procesen datos. También aprendí a utilizar los tipos de validación y autenticación para asegurar la integridad de los datos. Además, aprendí a implementar bases de datos y manejar respuestas asíncronas. FastAPI es una plataforma de alta velocidad y fácil de usar, perfecta para proyectos de back-end."
@@ -138,16 +151,11 @@ function Certificados(){
     DjangoBasico,
     DjangoIntermedio
   ]
+  const lenBackend = range(lstBackend.length)
 
-  const range = (limit) => {
-    const result = [];
-    for (let i = 0; i < limit; i++) {
-      result.push(i);
-    }
-    return result;
-  }
+  
 
-  const len = range(lstCoursera)
+  
 
   return (
     <>
@@ -165,7 +173,7 @@ function Certificados(){
             ]}
           lstImages = {lstCoursera}
           lstDescs = {lstCourseraDesc}
-          len = {[0,1,2,3,4]}
+          len = {lenCoursera}
           />
           <GrupoCert
             titulo = "Machine Learning con Scikit-Learn"
@@ -179,7 +187,7 @@ function Certificados(){
             }
             lstImages = {lstMachineLearning}
               lstDescs= {lstMachineLearningDesc}
-              len = {[0,1,2,3,4,5]}
+              len = {lenMachineLearning}
               />
           <GrupoCert
             titulo = "Bases de datos"
@@ -189,7 +197,7 @@ function Certificados(){
             ]}
             lstImages = {lstBasesDeDatos}
             lstDescs = {lstBasesDeDatosDesc}
-            len = {[0,1,2]}
+            len = {lenBasesDeDatos}
               />
           <GrupoCert
             titulo = "Fundamentos"
@@ -202,14 +210,14 @@ function Certificados(){
             ]}
             lstImages = {lstFundamentos}
             lstDescs = {lstFundamentosDesc}
-            len = {[0,1,2,3,4,5]}
+            len = {lenFundamentos}
               />
           <GrupoCert
             titulo="Nube de servicios"
             lstTitles={[ "Google Cloud Platform"]}
             lstImages={lstNube}
             lstDescs = {lstNubeDesc}
-            len = {[0]}
+            len = {lenNube}
             />
           <GrupoCert
             titulo="Backend"
@@ -221,7 +229,7 @@ function Certificados(){
             ]}
             lstImages={lstBackend}
             lstDescs = {lstBackendDesc}
-            len = {[0,1,2,3,4]}
+            len = {lenBackend}
             />
         </div>
       <Footer/>
