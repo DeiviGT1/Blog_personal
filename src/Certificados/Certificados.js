@@ -26,12 +26,16 @@ import FundamentosGCP from "../assets/diplomas/Nube/GCP/diploma-fundamentos-goog
 
 import IntroduccionBackend from "../assets/diplomas/Backend/diploma-backend-introduccion.jpg"
 import FastAPI from "../assets/diplomas/Backend/diploma-fastapi.jpg"
+import FastAPIItermedio from "../assets/diplomas/Backend/diploma-fastapi-intermedio.jpg"
+import DjangoBasico from "../assets/diplomas/Backend/diploma-django.jpg"
+import DjangoIntermedio from "../assets/diplomas/Backend/diploma-django-intermedio.jpg"
 
 import ExcelAdvanced from "../assets/diplomas/Coursera/Coursera Excel Skill Advanced.jpg"
 import ExcelBusiness from "../assets/diplomas/Coursera/Coursera Excel Skill for Business.jpg"
 import GoogleIT from "../assets/diplomas/Coursera/Coursera Google IT Automation.jpg"
 import PostgreSQLforEverybody from "../assets/diplomas/Coursera/Coursera PostgreSQL.jpg"
 import PythonforEverybody from "../assets/diplomas/Coursera/Coursera Python for Everybody.jpg"
+
 
 function Certificados(){
   const ExcelAdvancedDesc =  "He aprendido a utilizar VBA para automatizar tareas repetitivas y personalizar soluciones de Excel mediante la creación de macros, funciones y procedimientos personalizados, y trabajando con objetos en Excel. En resumen, este curso me ha permitido ampliar mis habilidades y tener una comprensión más profunda de cómo utilizar Excel de manera efectiva."
@@ -59,6 +63,8 @@ function Certificados(){
   const FastAPIDesc = "En el curso de fundamentos de FastAPI, aprendí a crear aplicaciones web y API en tiempo real utilizando Python y FastAPI. Aprendí cómo manejar peticiones HTTP y cómo construir rutas y funciones que procesen datos. También aprendí a utilizar los tipos de validación y autenticación para asegurar la integridad de los datos. Además, aprendí a implementar bases de datos y manejar respuestas asíncronas. FastAPI es una plataforma de alta velocidad y fácil de usar, perfecta para proyectos de back-end."
   const FastAPIItermedioDesc = "Como parte de mi formación en el curso de FastAPI intermedio y avanzado, aprendí a crear aplicaciones web escalables y eficientes utilizando esta herramienta de Python. Además, aprendí sobre el manejo de autenticación y autorización, validación de datos, documentación automatizada y cómo utilizar bases de datos en mis aplicaciones. También pude profundizar en el manejo de sesiones y uploads de archivos, y aprender sobre la integración con otros servicios y tecnologías. En resumen, este curso me permitió ampliar mis conocimientos sobre FastAPI y aplicarlos a soluciones más complejas."
   const DjangoBasicoDesc = "Aprendí los fundamentos del framework Django para desarrollar aplicaciones web en Python. Aprendí a crear modelos de datos, vistas y controladores, urls y a utilizar plantillas para el frontend. También aprendí sobre seguridad y autenticación de usuarios, así como sobre la gestión de bases de datos con Django. Ahora tengo las habilidades para desarrollar aplicaciones web robustas y escalables con Django."
+  const DjangoIntermedioDesc = "Durante mi curso intermedio de Django, me enfoqué en los temas de Testing, Static files y Django Admin. Aprendí a escribir pruebas para garantizar el correcto funcionamiento de la aplicación, mejorar el rendimiento con los Static files y utilizar el Django Admin para administrar la base de datos y los modelos. Este conocimiento me permitirá crear aplicaciones web más sólidas y eficientes en el futuro."
+
 
   const range = (limit) => {
     const result = [];
@@ -183,10 +189,16 @@ function Certificados(){
             lstImages={[
               IntroduccionBackend,
               FastAPI,
+              FastAPIItermedio,
+              DjangoBasico,
+              DjangoIntermedio
             ]}
             lstDescs = {[
               IntroduccionBackendDesc, 
-              FastAPIDesc
+              FastAPIDesc,
+              FastAPIItermedioDesc,
+              DjangoBasicoDesc,
+              DjangoIntermedioDesc
             ]}
             len = {[0,1]}
             />
