@@ -1,5 +1,8 @@
 #imagenCertificado{
   width: 100%;
+  position: sticky;
+  bottom: 0px;
+  
 }
 
 .subtitulo{
@@ -24,6 +27,7 @@
   margin-top: 0%;
   padding-left: 50%;
   transform: rotate(90deg);
+  
 }
 
 .despliegue:hover{
@@ -41,12 +45,14 @@
 .GrupoCertificados{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; 
+  align-items: end;
 }
 
 .certsFalse{
   flex-basis: calc(50% - 100px);
   margin: 10px;
+  
 }
 
 .seccion{
