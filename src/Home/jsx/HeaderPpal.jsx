@@ -52,7 +52,13 @@ function HeaderPpal() {
                 <li className="nav-item">
                   <a 
                   className="nav-link"
-                  href="#react">React</a>
+                  href="#react">Proyectos</a>
+                </li>
+                <li className="nav-item">
+                  <a 
+                  className="nav-link"
+                  href="http://spotify-env-1.eba-3qbsrs2p.us-east-1.elasticbeanstalk.com/"
+                  target="_blank">API Spotify</a>
                 </li>
               </ul>
               <form className="d-flex ms-auto p-2 pe-5 bd-highlight my-2 my-lg-0">
