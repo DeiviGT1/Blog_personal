@@ -19,7 +19,7 @@ function HeaderPpal() {
               data-target="#navbar" 
               aria-controls="#navbar"
               aria-expanded="false"
-              aria-label="Toggle navigation">
+              aria-label="inicio">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse">

@@ -34,7 +34,8 @@ function Carrusel ( props ){
       </button>
       <img 
         src={props.imagenes[imagen]} 
-        className="imagenCarrusel"/>
+        className="imagenCarrusel"
+        alt="imagenCarrusel"/>
       
     </div>
     </>

@@ -16,7 +16,8 @@ function Footer () {
               <img 
               src={github} 
               alt="" 
-              className="github"/>
+              className="github"
+              aria-label="github"/>
             </a>
           </div>
           <div className="col-lg-2 col-6 p-0 footer">
@@ -26,7 +27,8 @@ function Footer () {
               <img 
               src={linkedln} 
               alt="" 
-              className="linkedln"/>
+              className="linkedln"
+              aria-label="linkedln"/>
             </a>
           </div>
           <div className="col-lg-2 col-6 p-0 footer">
@@ -37,6 +39,7 @@ function Footer () {
               src={instagram} 
               alt="" 
               className="instagram"
+              aria-label="instagram"
               />
             </a>
           </div>
