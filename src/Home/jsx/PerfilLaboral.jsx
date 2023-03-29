@@ -12,7 +12,7 @@ function PerfilLaboral() {
               </h1>
             </div>
             <div className="container p-5 mt-5" id="box">
-              <div className="row m-5">
+              <div className="row m-0 m-lg-5">
                 <div className="col-12 col-lg-6">
                   <h2>S.O.S. Llaves y claves</h2>
                   <h4>Asistente administrativo | Enero 2019 - Octubre 2020</h4>

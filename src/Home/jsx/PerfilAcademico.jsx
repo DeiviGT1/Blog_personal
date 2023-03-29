@@ -54,7 +54,7 @@ function PerfilAcademico() {
                 </h1>
               </div>
               <div className="row experiencias">
-                <div className="col-6">
+                <div className="col-lg-4 col-12 pt-5 pt-lg-3">
                   <h2>ANEIAP</h2>
                   <p className="p-5">
                     Grupo estudiantil para estudiantes de ingenieria
@@ -66,7 +66,7 @@ function PerfilAcademico() {
                     asociación
                   </p>
                 </div>
-                <div className="col-6">
+                <div className="col-lg-4 col-12 pt-5 pt-lg-3">
                   <h2>Waterpolo</h2>
                   <p className="p-5">
                     Desde joven pertenecí a un equipo de waterpolo, demostrando
