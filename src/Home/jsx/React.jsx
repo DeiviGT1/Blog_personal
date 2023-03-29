@@ -60,7 +60,7 @@ function ReactWeb() {
               <div className="row">
                 <div className="col p-5">
                   <a
-                    href="http://spotify-env-1.eba-3qbsrs2p.us-east-1.elasticbeanstalk.com/"
+                    href="http://playlistspopularity-env.eba-y5rm5qmc.us-east-1.elasticbeanstalk.com/"
                     target="_blank"
                   >
                     {" "}
