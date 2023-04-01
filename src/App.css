@@ -125,9 +125,13 @@ width: 100%;
   filter: invert(0.5)
 }
 
+.nav-link {
+  margin-left: auto;
+}
+
 #modo_actual_pagina{
   height: 45px;
-  filter: invert(0.5)
+  filter: invert(0.5);
 }
 
 #titulo{

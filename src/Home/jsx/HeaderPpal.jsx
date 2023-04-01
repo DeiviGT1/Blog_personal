@@ -67,17 +67,7 @@ function HeaderPpal() {
                   target="_blank">API OpenAI - Spotify</a>
                 </li>
               </ul>
-              <form className="d-flex ms-auto p-2 pe-5 bd-highlight my-2 my-lg-0">
-                <input 
-                className="form-control mr-sm-2"
-                type="search" 
-                placeholder="Busqueda"
-                aria-label="Search"/>
-                <button
-                  className="btn btn-outline-success my-2 offset-1 my-sm-0"
-                  type="submit"> Busqueda
-                </button>
-              </form>
+
               <a 
               className="nav-link d-none d-md-block"
               href="#">
