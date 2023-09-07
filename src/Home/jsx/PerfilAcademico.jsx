@@ -16,7 +16,7 @@ function PerfilAcademico() {
               <div className="row">
                 <div className="col-lg-4 col-12 pt-5 pt-lg-3 estudio">
                   <h2>Universidad nacional de Colombia</h2>
-                  <h4>Ing. administrativa</h4>
+                  <h4>Ingenieria administrativa</h4>
                   
                   <p>
                     Estudiante de ingeniería administrativa con cursos aprobados
