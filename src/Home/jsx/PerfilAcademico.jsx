@@ -17,7 +17,7 @@ function PerfilAcademico() {
                 <div className="col-lg-4 col-12 pt-5 pt-lg-3 estudio">
                   <h2>Universidad nacional de Colombia</h2>
                   <h4>Ing. administrativa</h4>
-                  <h4>Enero 2018 - Octubre 2023</h4>
+                  
                   <p>
                     Estudiante de ingeniería administrativa con cursos aprobados
                     en materias financieras y de desarrollo matemático cognitivo
@@ -28,7 +28,7 @@ function PerfilAcademico() {
                 <div className="col-lg-4 col-12 pt-5 pt-lg-3 estudio">
                   <h2>Colegio panamericano colombo sueco</h2>
                   <h4>Bachiller</h4>
-                  <h4>Noviembre 2017</h4>
+                  
                   <p>
                     Enfocado en valores morales y éticos muy importantes para el
                     desarrollo como persona integral a la hora de desarrollar
@@ -39,7 +39,7 @@ function PerfilAcademico() {
                 <div className="col-lg-4 col-12 pt-5 pt-lg-3 estudio">
                   <h2>Plataforma de cursos Coursera</h2>
                   <br />
-                  <h4>Junio 2020 - Marzo 2022</h4>
+                  
                   <p>
                     5 cursos especializados con énfasis en Excel avanzado, Power
                     BI, Python y el análisis de datos certificados por la
