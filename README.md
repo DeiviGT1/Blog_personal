@@ -1,36 +1,34 @@
-<h1 align="center"> Blog Personal </h1>
+<h1 align="center"> Personal Blog </h1>
 
 <p align="center">
-  <img src="./src/assets/fondo.png" alt="Sublime's custom image"/>
+  <img src="./src/assets/background.png" alt="Custom background image"/>
 </p>
 
 <br>
 <br>
-<h2 align="center">🏁 El proyecto se encuentra terminado 🏁 </h2>
 
-<h4> 🔨 ¡Bienvenidos a mi blog! Mi nombre es Jose David Gonzalez y tengo 22 años. Actualmente soy estudiante de ingeniería administrativa y también me considero un apasionado de la tecnología y las herramientas avanzadas de programación como Python y Javascript. 🔨 </h4>
+<h2 align="center">🏁 The project is completed 🏁 </h2>
 
-<br>
-
-## 📁 Acceso al proyecto
-
-**Este proyecto puede ser descargado como archivo ZIP o realizando una conexión con el http por medio de git**
+<h4> 🔨 Welcome to my blog! My name is Jose David Gonzalez, and I'm 23 years old. I am a professional in administrative engineering, and I also consider myself passionate about technology and advanced programming tools like Python and Javascript. 🔨 </h4>
 
 <br>
 
-## 🛠️ Abre y ejecuta el proyecto
+## 📁 Project Access
 
-**Este blog se puede visualizar utilizando el link [Blog David](https://blogdavid1.netlify.app/)"" <br>
-**Se puede correr el archivo desde la terminal en cualquier sistema operativo**
+**This project can be downloaded as a ZIP file or by connecting via HTTP using git**
+
+<br>
+
+## 🛠️ Open and Run the Project
+
+**This blog can be viewed using the link [Blog David](https://jdavidgonzalez.netlify.app/)** <br>
+**The project can be run from the terminal on any operating system**
 
 <br>
 <br>
 
-## ✅ Tecnologias usadas
+## ✅ Technologies Used
 
-- **ReactJS**<br>
-- **Node.js**<br>
-- **JavaScript**<br>
 - **CSS**<br>
 - **HTML**<br>
 <br>
